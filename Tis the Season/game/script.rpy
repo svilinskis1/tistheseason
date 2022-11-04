@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define f = Character("Foxy")
 
 
 # The game starts here.
@@ -20,13 +20,13 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    show foxy happy
 
     # These display lines of dialogue.
 
-    e "hai x3"
+    f "hai x3"
 
-    e "(testing github)"
+    f "(testing github)"
 
     # This ends the game.
 
