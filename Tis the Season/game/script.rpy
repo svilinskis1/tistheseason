@@ -28,6 +28,8 @@ label start:
 
     f "(testing github)"
 
+    f "now I'm testing github"
+
     # This ends the game.
 
     return
