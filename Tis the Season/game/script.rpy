@@ -77,6 +77,10 @@ label start:
     jack "Well you should have moved! I have a train to catch."
     "he storms off."
     "I can't believe I'm this clumsy! I've done this twice today already."
+
+    #fadeout again
+    #put a better line later lol
+    "I should probably get going. I keep driving to get to the big city"
     
 
 
