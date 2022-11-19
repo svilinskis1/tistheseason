@@ -72,7 +72,7 @@ label start:
     "he takes off his hot chocolate covered coat and shoves it into my face."
     #show jack
     jack "this coat is dry clean only! Do you knwow what you've done?"
-    "Now that I get a good look at him, he's quite handsome."
+    "Now that I get a good look at him, he's so handsome...!"
     holly "You were the one who running!"
     jack "Well you should have moved! I have a train to catch."
     "he storms off."
