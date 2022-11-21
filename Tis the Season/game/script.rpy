@@ -5,6 +5,8 @@ define jack = Character(("Jack"), color = "#be392a")
 define holly = Character(("Holly"), color = "#00FF00")
 define noelle = Character(("Noelle"), color = "#22772e")
 
+define hs = Character(("Hotel Receptionist"))
+
 # The game starts here.
 
 label start:
@@ -147,8 +149,20 @@ label start:
     "Oh, here's a hotel. I'll need to get a room!"
 
     #show bg hotel lobby
+    #with fade
+    
+    holly "What do you mean you don't have any rooms?!"
+    hs "I'm sorry! Our rooms are always in demand at Christmas."
+    holly "Well what am I supposed to do now?!"
+
+    show felix
+    with fade
+
+    #felix bit
 
     
+
+
      
     
 
