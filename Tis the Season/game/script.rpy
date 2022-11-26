@@ -11,7 +11,7 @@ define hs = Character(("Hotel Receptionist"))
 
 label start:
 
-    scene bg office
+    #scene bg office
 
     # scene 1
     #start this properly
@@ -71,7 +71,7 @@ label start:
 
     hide jack
 
-    #show bg town 2
+    #scene bg town 2
     #with fade
 
     "Ugh, I'm lost! Where's this freakin bakery!"
@@ -99,7 +99,7 @@ label start:
     hide noelle
     hide chris
 
-    #show bg town 3
+    #scene bg town 3
     #with fade
 
     "I got a hot chocolate - tis the season after all. It tastes delicious."
@@ -122,10 +122,10 @@ label start:
 
     "I should probably get going. I need to keep driving to get to the big city."
 
-    #show bg town
+    #scene bg town
     "Luckily I find my way back to my car."
 
-    #show bg road
+    #scene bg road
     "As I'm going out I see someone on the side of the road."
     "wait... him again?!"
     show jack
@@ -144,11 +144,11 @@ label start:
 
     "He rode back towards town on his snowmobile."
 
-    #show bg town
+    #scene bg town
     "Nick is right... It won't be so bad being in this town for Christmas!"
     "Oh, here's a hotel. I'll need to get a room!"
 
-    #show bg hotel lobby
+    #scene bg hotel lobby
     #with fade
     
     holly "What do you mean you don't have any rooms?!"
