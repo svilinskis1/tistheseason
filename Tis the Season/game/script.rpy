@@ -13,10 +13,11 @@ label start:
 
     #scene bg office
 
-    # scene 1
-    #start this properly
-
-    "(talking)"
+    "Christmas is the most magical time of year."
+    "The snow, the decorations, the music..."
+    "And time off work!"
+    "I love my job in the city, but it's soooo boring sometimes."
+    "They don't even let us decorate!"
 
     show kane
 
@@ -37,7 +38,7 @@ label start:
     #scene 2
     scene bg road
 
-    "I decided to drive. Who doesn't love a good roadtrip?"
+    "I decided to drive. Who doesn't love a good Christmas roadtrip?"
     "It's a long drive though... I'll take a break. There's a town coming up, a little place called Mistletoe."
     "I might as well stop by on the way."
 
@@ -78,7 +79,7 @@ label start:
 
     show noelle
 
-    noelle "Hi lady!!! Are you lost??"
+    noelle "Hi lady! Are you lost?"
     "Woah! What a cute child!"
     holly "I am a bit... do you know where Jingle Bell Bakery is?"
     noelle "Uhhh..."
@@ -137,26 +138,43 @@ label start:
     nick "You're welcome to try. But a massive tree fell over on the road. Nobody can get through until after Christmas."
     holly "After Christmas?! So I'm gonna be stuck here for 5 days?!"
     nick "Sorry. But you can't pass."
-    nick "But Mistletoe is a great town to get stuck in for Christmas!" #fix this line
+    nick "But Mistletoe is a great town! I'm sure you'll find somewhere to stay."
     nick "I'll see you around."
 
     hide nick
 
-    "He rode back towards town on his snowmobile."
+    "He rides back towards town on his snowmobile."
 
     #scene bg town
-    "Nick is right... It won't be so bad being in this town for Christmas!"
+    "Jack is right... It won't be so bad being in this town for Christmas!"
     "Oh, here's a hotel. I'll need to get a room!"
 
     #scene bg hotel lobby
     #with fade
     
-    holly "What do you mean you don't have any rooms?!"
-    hs "I'm sorry! Our rooms are always in demand at Christmas."
-    holly "Well what am I supposed to do now?!"
+    "As soon as I walk in, I see a familiar handsome face."
+    "He sees me too."
 
     show felix
     with fade
+
+    felix "You again!"
+    holly "What are you doing here? I thought you had a train to catch!"
+    felix "I missed it, because of you!"
+    felix "I'm afraid you're too late, by the way. I've just gotten the last room."
+    felix "Unless you want to share? "
+    "What on earth does he mean by that?"
+    "Ugh, what do I do?"
+    menu:
+        "Share a room with Felix":
+            holly "Fine. As long as we don't have to share a bed or anything."
+            felix "Don't worry aobut that"
+        
+        "Try somewhere else":
+            "No way. i'm not sharing a room with that jerk!"
+            holly "Sorry, but I'll find somewhere else."
+            
+
 
     #felix bit
 
