@@ -64,8 +64,7 @@ label start:
     jack "It's a small town. I know everyone here."
     "Wow, a real small town man."
     holly "Well, do you know where I can get a coffee? I've been driving for a while."
-    jack "There's a café called Jingle Bell Bakery just north of here on the left." 
-    "He points north for emphasis."
+    jack "There's a café called Jingle Bell Bakery just north of here." 
     jack "I know you wanted coffee, but they have the best hot chocolate in the state."
     holly "Well, thanks for the help."
     "That was SO awkward!"
@@ -95,7 +94,9 @@ label start:
     chris "Noelle! Don't tell me you were bothering her."
     "He's kind of cute... are all the men in town like this?"
     holly "Um. I actually do need help... Do you know where the Jingle Bell Bakery is? I'm from out of town and I'm lost..."
-    chris "hi"
+    chris "Oh, sure! It's just that way."
+    holly "Thanks!"
+    "This is so embarrassing... at least he's cute."
 
     hide noelle
     hide chris
@@ -125,28 +126,34 @@ label start:
 
     #scene bg town
     "Luckily I find my way back to my car."
+    "Oh... looks like it's starting to snow!"
 
     #scene bg road
-    "As I'm going out I see someone on the side of the road."
-    "wait... him again?!"
-    show jack
-    holly "Jack?! What are you doing here??"
-    jack "Oh, Holly, right? Nice to see you again."
-    jack "Bad news, you're going to have to turn back around. You can't come through here."
-    holly "What?!"
-    holly "But I need to pass through here! I need to get to the big city for a meeting!"
-    nick "You're welcome to try. But a massive tree fell over on the road. Nobody can get through until after Christmas."
-    holly "After Christmas?! So I'm gonna be stuck here for 5 days?!"
-    nick "Sorry. But you can't pass."
-    nick "But Mistletoe is a great town! I'm sure you'll find somewhere to stay."
-    nick "I'll see you around."
-
-    hide nick
-
-    "He rides back towards town on his snowmobile."
+    "I've barely gotten out of town and it's snowing hard."
+    "At this rate I'll have to turn around. But I have to get to the meeting!"
+    #the car crashes
+    #tow truck comes
+    "an old man steps out of the tow truck."
+    #show santa
+    "Old Man" "Do you need any help, ma'am?"
+    holly "Yes!  I need towing!"
+    "Old Man" "We'll have to go back to town. It's too dangerous to go farther til the snow stops."
+    holly "As long as it's not out here!"
+    #back to town
+    "Old Man" "Unfortunately you'll have to stay in town for a few days. Our mechanic is out on vacation until after Christmas."
+    holly "What kind of town only has one mechanic?"
+    "Old Man" "We're a very small town."
+    holly "I know! I'll call my fiancé and ask him to pick me up."
+    "I dig my cell phone out of my jacket and call Kane. Luckily, he picks up."
+    kane "Holly? What is it?"
+    holly "Kane, can you come pick me up? I crached my car and now I'm stuck in this town called Mistletoe..."
+    kane "Sure, Holly. I have a meeting tomorrow afternoon that I can't miss, so I'l drive over the day after that."
+    "Does he think of anyhting except work?"
+    holly "Thanks, babe. See you soon!"
+    "I hang up the phone."
+    holly ""
 
     #scene bg town
-    "Jack is right... It won't be so bad being in this town for Christmas!"
     "Oh, here's a hotel. I'll need to get a room!"
 
     #scene bg hotel lobby
@@ -164,15 +171,7 @@ label start:
     felix "I'm afraid you're too late, by the way. I've just gotten the last room."
     felix "Unless you want to share? "
     "What on earth does he mean by that?"
-    "Ugh, what do I do?"
-    menu:
-        "Share a room with Felix":
-            holly "Fine. As long as we don't have to share a bed or anything."
-            felix "Don't worry aobut that"
-        
-        "Try somewhere else":
-            "No way. i'm not sharing a room with that jerk!"
-            holly "Sorry, but I'll find somewhere else."
+    holly "Nah"
             
 
 
