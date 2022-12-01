@@ -137,9 +137,10 @@ label start:
     #show santa
     "Old Man" "Do you need any help, ma'am?"
     holly "Yes!  I need towing!"
+    "The old man starts attaching my car to his truck."
     "Old Man" "We'll have to go back to town. It's too dangerous to go farther til the snow stops."
     holly "As long as it's not out here!"
-    #back to town
+    "I climb into the passenger seat of the tow truck and we set off."
     "Old Man" "Unfortunately you'll have to stay in town for a few days. Our mechanic is out on vacation until after Christmas."
     holly "What kind of town only has one mechanic?"
     "Old Man" "We're a very small town."
@@ -149,9 +150,17 @@ label start:
     holly "Kane, can you come pick me up? I crached my car and now I'm stuck in this town called Mistletoe..."
     kane "Sure, Holly. I have a meeting tomorrow afternoon that I can't miss, so I'l drive over the day after that."
     "Does he think of anyhting except work?"
-    holly "Thanks, babe. See you soon!"
+    holly "Are you sure you can't come earlier?"
+    kane "Sorry Holly, you know how it is."
+    holly "Well, thanks anyway. See you soon."
     "I hang up the phone."
-    holly ""
+    holly "What am I supposed to do until then?"
+    "Old Man" "Stay a while! It's a beautiful place when you get to know it."
+    "the truck stops. I open the door and get out."
+    holly "Hey, where am I supposed to stay?"
+    "Old Man" "Go to the center of town where the Christmas tree is. You'll find what you need there."
+    "he drives off before I can ask what he means."
+    
 
     #scene bg town
     "Oh, here's a hotel. I'll need to get a room!"
